@@ -1,5 +1,7 @@
 import { changeDirectory, goUp } from "../commands/changeDirectory.js";
+import { createFile } from "../commands/createFile.js";
 import { list } from "../commands/listFiles.js";
+import { readFile } from "../commands/readFile.js";
 import { getInitVariables } from "../utils/commands.js";
 
 const USERNAME_COMMAND = '--your_username'
@@ -23,7 +25,13 @@ const commandService = async (command) => {
     case '.exit': 
       byeMessage()
       process.exit()
-      
+
+    case 'cat': 
+      return readFile(args[0])      
+    
+    case 'add':
+      return createFile(args[0])
+
     default:
       console.log(`Received: ${command}`);
   }
