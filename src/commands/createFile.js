@@ -7,6 +7,8 @@ export const createFile = async (fileName) => {
     const filePath = path.join(cwd(), fileName)
 
     await appendFile(filePath, '')
+
+    console.log(`File was created successfully ${filePath}`);
   } catch (error) {
     console.error('Something get wrong!', error)
   }
