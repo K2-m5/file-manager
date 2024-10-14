@@ -1,0 +1,22 @@
+{
+  "name": "file-manager",
+  "version": "1.0.0",
+  "description": "Awesome file manager",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/K2-m5/file-manager.git"
+  },
+  "keywords": [
+    "file-manager"
+  ],
+  "author": "Pavel Svirid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/K2-m5/file-manager/issues"
+  },
+  "homepage": "https://github.com/K2-m5/file-manager#readme"
+}
