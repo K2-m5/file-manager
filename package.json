@@ -18,8 +18,5 @@
   "bugs": {
     "url": "https://github.com/K2-m5/file-manager/issues"
   },
-  "homepage": "https://github.com/K2-m5/file-manager#readme",
-  "dependencies": {
-    "cross-env": "^7.0.3"
-  }
+  "homepage": "https://github.com/K2-m5/file-manager#readme"
 }
